@@ -1,10 +1,32 @@
 <?php
 /**
- * WeatherComponent
+ * Weather Component
+ *
+ * LICENSE
+ *
+ * This source file is subject to the new BSD license that is bundled with this
+ * package in the file LICENSE. It is also available through the world-wide-web
+ * at this URL: http://www.opensource.org/licenses/bsd-license
+ *
+ * @category   Components
+ * @package    CakePHP
+ * @subpackage PHP
+ * @copyright  Copyright (c) 2011 Signified (http://signified.com.au)
+ * @license    http://www.opensource.org/licenses/bsd-license    New BSD License
+ * @version    1.0
+ */
+
+/**
+ * WeatherComponent class
  *
  * This component is used for getting the weather using The Google Weather API
  * http://www.google.com/ig/api?weather=<LOCATION>
  *
+ * @category   Components
+ * @package    CakePHP
+ * @subpackage PHP
+ * @copyright  Copyright (c) 2011 Signified (http://signified.com.au)
+ * @license    http://www.opensource.org/licenses/bsd-license    New BSD License
  */
 class WeatherComponent extends Object
 {
