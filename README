@@ -21,7 +21,7 @@ The following example shows how to get the weather for Sydney Australia from
 within a controller action:
 
     $this->Weather->location = 'Sydney Australia';
-    $forecast = $this->Weather->forecast();
+    $this->Weather->forecast();
     debug($this->Weather);
     exit;
 
